@@ -66,7 +66,7 @@ class Director:
         
 
     def do_outputs(self):
-        """Displays the dice and the score. Also asks the player if they want to roll again. 
+        """Displays the card and the score. Also asks the player if they want to roll again. 
 
         Args:
             self (Director): An instance of Director.
@@ -98,7 +98,7 @@ class Director:
             pass
             
 
-        print(f"You rolled: {values}")
+        # print(f"You rolled: {values}")
         print(f"Next Card was: {value3}")
         print(f"Your score is: {self.total_score}\n")
         self.is_playing == (self.score > 0)
